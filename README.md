@@ -54,10 +54,10 @@ This is a function to perform gradient descent for linear regression with multip
 + `tol`	the tolearnace between current and best cost
 
 #### Value
-+`Theta` estimated parameters
-+`cost` cost history
-+`best_cost` best cost
-+`itr` number of iterations conducted
++ `Theta` estimated parameters
++ `cost` cost history
++ `best_cost` best cost
++ `itr` number of iterations conducted
 
 
  ## Examples
