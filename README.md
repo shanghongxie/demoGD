@@ -76,12 +76,9 @@ cost = result$cost
 plot(1:length(cost), cost, xlab = "iterations", main = "Cost over iterations")
 ```
 
-> result$Theta
-           [,1]
-[1,]  0.7838848
-[2,]  0.3396006
-[3,] -5.1364509
-[4,]  2.0154923
-[5,]  3.0373587
+<p align="center">
+<img src="https://github.com/shanghongxie/demoGD/costhistory.png" width="500" height="600">
+</p>
+
 
 
