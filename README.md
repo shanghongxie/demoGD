@@ -61,6 +61,7 @@ This is a function to perform gradient descent for linear regression with multip
 
 
  ## Examples
+ Here is an example for a linear regression model with five predictors
 ``` 
  # Generate X with n=100, p=5
 X <- matrix(rnorm(100*5, mean = 0, sd = 1), 100, 5)
