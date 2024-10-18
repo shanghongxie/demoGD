@@ -77,7 +77,7 @@ plot(1:length(cost), cost, xlab = "iterations", main = "Cost over iterations")
 ```
 
 <p align="center">
-<img src="https://github.com/shanghongxie/demoGD/blob/master/costhistory.png" width="500" height="600">
+<img src="https://github.com/shanghongxie/demoGD/blob/master/costhistory.png" width="700" height="600">
 </p>
 
 
