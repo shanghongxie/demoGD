@@ -3,7 +3,7 @@
 
 <img src="https://img.shields.io/badge/Study%20Status-Results%20Available-yellow.svg" alt="Study Status: Results Available"> 
 
-This is a demonstration R package for performing gradient descent for single and multiple linear regressions
+This is a demonstration R package for performing gradient descent for simple and multiple linear regressions
 
 
 - Authors: **Shanghong Xie<sup>a</sup> (SX2@mailbox.sc.edu)</sup>**
