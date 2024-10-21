@@ -13,7 +13,7 @@ gradient_descent_single(
 )
 }
 \arguments{
-\item{X}{the predictor (a p-dimensional vector).}
+\item{X}{the predictor (an n-dimensional vector), with each element representing the value of one sample.}
 
 \item{y}{the response variable (a vector)}
 
