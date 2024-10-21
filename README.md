@@ -12,7 +12,7 @@ This is a demonstration R package for performing gradient descent for simple and
    + 1. **Department of Statistics, University of South Carolina, Columbia, SC, USA**
 
 ## Details
-Consider a multiple linear regression model with $p$ predictors: $Y=X\Theta+\epsilon$, where $X$ is an $n\times p$ matrix, $\Theta=(\theta_1, \dots, \theta_p)^T$ represents the parameters, and error term $\epsilon$ follows a multivariate standard normal distribution.
+Consider a multiple linear regression model with $p$ predictors: $Y=X\Theta+\epsilon$, where $X$ is an $n\times p$ matrix, $\Theta=(\theta_1, \dots, \theta_p)^T$ represents the parameters, and error term $\epsilon=(\epsilon_1, \dots, \epsilon_n)^T$ follows a multivariate normal distribution, $\epsilon_i$'s are independent.
 
 The cost function and its derivative with respect to $\Theta$ are as follows:
 
