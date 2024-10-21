@@ -29,7 +29,7 @@ To estimate $\Theta$, perform the gradient descent algorithm:
 
 2. Iteratively update $\Theta$ as: $\Theta:= \Theta-\alpha \frac{\partial Cost}{\partial \Theta}$, where $\alpha$ is a learning rate;
 
-3. End the iterations when the algorithm converges or when the pre-specified maximum number of iterations is reached.
+3. Stop when the algorithm converges or when the pre-specified maximum number of iterations is reached.
 
 
 
