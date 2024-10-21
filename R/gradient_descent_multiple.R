@@ -1,7 +1,7 @@
 #' Gradient descent for multiple linear regression
 #'
 #' Perform gradient descent for linear regression with multiple predictors
-#' @param X the predictors (a n*p matrix). X should be standardized first.
+#' @param X the predictors (an n*p matrix). X should be standardized first.
 #' @param y the response variable (a vector)
 #' @param learning_rate the step size for gradient descent
 #' @param max_itr the maximum number of iterations to run gradient descent
