@@ -11,6 +11,26 @@ This is a demonstration R package for performing gradient descent for simple and
 - Affiliations:
    + 1. **Department of Statistics, University of South Carolina, Columbia, SC, USA**
 
+## Details
+Consider a multiple linear regression model with $p$ predictors: $Y=X\Theta+\epsilon$, where $X$ is an $n\times p$ matrix, $\Theta=(\theta_1, \dots, \theta_p)^T$ represents the parameters, and error term $\epsilon$ follows a multivariate standard normal distribution.
+
+The cost function and its derivative with respect to $\Theta$ are as follows:
+
+$$Cost=\frac{1}{2n}(y-X\Theta)^T(y-X\Theta)$$
+
+```math
+\frac{\partial Cost}{\partial \Theta}=-\frac{1}{n}X^T(y-X\Theta)
+```
+
+
+To estimate $\Theta$, perform the gradient descent algorithm: 
+
+1. Initialize $\Theta=0$;
+
+2. Iteratively update $\Theta$ as: $\Theta:= \Theta-\alpha \frac{\partial Cost}{\partial \Theta}$, where $\alpha$ is a learning rate;
+
+3. End the iterations when the algorithm converges or when the pre-specified maximum number of iterations is reached.
+
 
 
 ## Setup Requirements
