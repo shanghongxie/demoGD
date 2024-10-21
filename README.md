@@ -67,7 +67,7 @@ This is a function to perform gradient descent for simple linear regression with
 ### gradient_descent_multiple
 This is a function to perform gradient descent for linear regression with multiple predictors
 #### Arguments
-+ `X`	the predictors (a n*p matrix). X should be standardized first.
++ `X`	the predictors (an n*p matrix). X should be standardized first.
 + `y`	the response variable (a vector)
 + `learning_rate`	the step size for gradient descent
 + `max_itr`	the maximum number of iterations to run gradient descent
