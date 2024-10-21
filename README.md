@@ -89,9 +89,20 @@ Theta = c(1, 0.5, -5, 2, 3)
 y <- X%*%Theta + rnorm(100, mean = 0, sd = 1)
 # Perform gradient descent
 result <- gradient_descent_multiple(X, y, learning_rate = 0.01, max_itr = 10000, tol = 1e-5)
+```
+Estimated $\Theta$
+```
 Thetahat = result$Theta
-result$itr
+c(Thetahat) 
+```
+0.9125283  0.5700435 -5.3888507  1.8727388  2.9746303
+
+Best cost
+```
 result$best_cost
+```
+0.5003937
+```
 cost = result$cost
 # plot the cost history over iterations
 plot(1:length(cost), cost, xlab = "iterations", main = "Cost over iterations")
