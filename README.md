@@ -102,6 +102,8 @@ Best cost
 result$best_cost
 ```
 0.5003937
+
+Plot the cost history over iterations
 ```
 cost = result$cost
 # plot the cost history over iterations
