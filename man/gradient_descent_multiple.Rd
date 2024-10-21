@@ -13,7 +13,7 @@ gradient_descent_multiple(
 )
 }
 \arguments{
-\item{X}{the predictors (a n*p matrix). X should be standardized first.}
+\item{X}{the predictors (an n*p matrix). X should be standardized first.}
 
 \item{y}{the response variable (a vector)}
 
