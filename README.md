@@ -52,7 +52,7 @@ library(demoGD)
 ### gradient_descent_single 
 This is a function to perform gradient descent for simple linear regression with one predictor.
 #### Arguments
-+ `X`	the predictor (a n-dimensional vector), each element is the value of one sample.
++ `X`	the predictor (an n-dimensional vector), with each element representing the value of one sample.
 + `y`	the response variable (a vector)
 + `learning_rate`	the step size for gradient descent
 + `max_itr`	the maximum number of iterations to run gradient descent
