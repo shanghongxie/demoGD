@@ -1,7 +1,7 @@
 #' Gradient descent for simple linear regression
 #'
 #' Perform gradient descent for linear regression with one predictor and intercept
-#' @param X the predictor (a p-dimensional vector).
+#' @param X the predictor (a n-dimensional vector).
 #' @param y the response variable (a vector)
 #' @param learning_rate the step size for gradient descent
 #' @param max_itr the maximum number of iterations to run gradient descent
